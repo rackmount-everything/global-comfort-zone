@@ -7,7 +7,7 @@ BLUE='\033[0;34m'
 PURPLE='\033[1;35m'
 
 # Choose MODE=SUN for SunOS, choose MODE=SMART for SmartOS
-MODE="SMART"
+BRAND="SMART"
 
 
 # Get zpool status and last login
@@ -21,7 +21,7 @@ LASTLOG=`last root | head -n2 | tail -n1 | cut -c41-`
 
 
 # 23 lines of ASCII art
-if [ $MODE = "SMART" ]; then
+if [ $BRAND = "SMART" ]; then
 LOGO=$BLUE
 l[1]='                              //////           '
 l[2]='            /*          //////////////         '
@@ -46,7 +46,7 @@ l[20]='    /////////////////////////////   *///////   '
 l[21]='     //////////////////////////      /////     '
 l[22]='       ////////////////////      //  //        '
 l[23]='         //////////////          //            '
-elif [ $MODE = "SUN" ]; then
+elif [ $BRAND = "SUN" ]; then
 LOGO=$YELLOW
 l[1]='                       . ..                      '
 l[2]='                            ...                  ' 
@@ -74,7 +74,7 @@ l[23]='                ...                              '
 fi
 
 # Text to be plased next to the ASCII art
-if [ $MODE = "SMART" ]; then
+if [ $BRAND = "SMART" ]; then
 t[1]="+---------------------------------------------------+"
 t[2]='|   Welcome Back!                                   |'
 t[3]="| $BLUE   _____                      __  ____  _____    $NC |"
@@ -83,7 +83,7 @@ t[5]="| $BLUE  \__ \/ __ \`__ \/ __ \`/ ___/ __/ / / /\__ \     $NC |"
 t[6]="| $BLUE ___/ / / / / / / /_/ / /  / /_/ /_/ /___/ /     $NC |"
 t[7]="| $BLUE/____/_/ /_/ /_/\__,_/_/   \__/\____//____/      $NC |"
 t[8]='+---------------------------------------------------+'
-elif [ $MODE = "SUN" ]; then
+elif [ $BRAND = "SUN" ]; then
 t[1]="+---------------------------------------------------+"
 t[2]='|   Welcome Back!                                   |'
 t[3]="| $PURPLE   _____             ____  _____    ______ ______$NC |"
