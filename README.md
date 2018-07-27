@@ -9,7 +9,7 @@ Currently this repo is under testing: please use at your own risk.
 
 ## Installation
 
-1. Copy the contents of the git repo into /opt
+1. Copy the contents of the git repo into `/opt`
 
 2. Delete (or merge the contents of) any `.bashrc`, `.bash_profile`, etcetera you might have in /root/
 
