@@ -1,4 +1,4 @@
-# Global ^Comfort Zone
+# Global Comfort Zone
 
 ##### _Enjoy Your Feeling_ ( ͡° ͜ʖ ͡°)
 A set of modifications to improve the comfort of the Global Zone as a workspace
