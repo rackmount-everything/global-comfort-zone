@@ -17,6 +17,6 @@ Currently this repo is under testing: please use at your own risk.
 
 3.5. Optional: also install https://github.com/elzr/vim-json into `/opt/custom/root/.vim`
 
-4. Symlink the new dotfiles into the root directory with `ln -nsf /opt/custom/root/.[a-zA-Z0-9]* /root/'`
+4. Symlink the new dotfiles into `/root` with `ln -nsf /opt/custom/root/.[a-zA-Z0-9]* /root/'`
 
 All done! Any changes to the dot files will be saved in /opt and will be automatically symlinked back into your home directory at boot.
