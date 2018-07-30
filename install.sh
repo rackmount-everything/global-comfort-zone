@@ -10,7 +10,7 @@ rm -r images/ global-comfort-zone-master/
 
 ############## WARNING INPUT
 echo "This script is about to overwrite the dotfiles in your home directory ($HOME)."
-REPLY=`read -p  "Are you sure you would like to continue [Y/n]? "`
+read -p  "Are you sure you would like to continue [Y/n]? "
 
 case $REPLY in
 "y"|"Y"|"yes"|"Yes"|"YES")
