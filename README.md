@@ -7,7 +7,14 @@ Currently this repo is under testing: please use at your own risk.
 
 ![](images/screenshot-1.png)
 
-## Installation
+## Installation (Easy Mode)
+
+Simply paste this into a terminal (all one line):
+
+`curl -k https://raw.githubusercontent.com/rackmount-everything/global-comfort-zone/master/install.sh > /tmp/install.sh; chmod +x /tmp/install.sh; /tmp/install.sh; rm /tmp/install.sh
+`
+
+## Installation (Manual Mode)
 
 1. Copy the contents of the git repo into `/opt`
 
